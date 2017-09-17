@@ -5,7 +5,7 @@
 [所有作业](https://github.com/cocolive/computational_physics_N2015301510001/blob/master/homework.md)
  
  第一次作业
-- 安装python 3.6运行环境（非linux环境请安装[狂蟒之灾]（https://www.continuum.io/））
+- 安装python 3.6运行环境,非linux环境请安装[狂蟒之灾](https://www.anaconda.com/download)
 -  *已安装
 - 注册github账户，建立自己的软件池并按要求命名
 -  *已注册
