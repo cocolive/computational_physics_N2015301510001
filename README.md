@@ -40,9 +40,7 @@
 # 第十一次作业
  
 # 第十二次作业
-<embed autostart="true" hidden="true" loop="true" src="http://ois5yh1xg.bkt.clouddn.com/%E5%8D%A2%E5%86%A0%E5%BB%B7%E4%B8%80%E7%94%9F%E6%89%80%E7%88%B1.mp3"></embed>
 
-作者：不二
-链接：https://www.zhihu.com/question/50741481/answer/138946224
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+<audio autoplay="autoplay">
+    <source = src="" type="audio/mp3">
+</audio>
