@@ -1,7 +1,7 @@
 #作业
 > [√] [第一次作业](https://github.com/cocolive/computational_physics_N2015301510001/blob/master/Exercise_01.md)
 
-> [×] [第二次作业]()
+> [√] [第二次作业](https://github.com/cocolive/computational_physics_N2015301510001/blob/master/Exercise_02.md)
 
 > [×] [第三次作业]()
 
