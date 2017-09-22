@@ -1,7 +1,7 @@
-# [computational_physics_N2015301510001](https://y.qq.com/portal/player.html)
+# computational_physics_N2015301510001
+
 ![](http://cdnq.duitang.com/uploads/item/201507/06/20150706081750_zuA3P.thumb.700_0.jpeg)
 
-作业
 # compuational physics   
  
 # [所有作业](https://github.com/cocolive/computational_physics_N2015301510001/blob/master/homework.md)
