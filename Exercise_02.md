@@ -7,6 +7,10 @@
   - 用timesleep延迟
   
 # 成果：
-level 1：
+ ·level 1：覆盖原内容
 
   ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/%E4%BD%9C%E4%B8%9A2.1.gif)
+  
+ ·level 2：清除刷新
+  
+  ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/%E4%BD%9C%E4%B8%9A2.2.gif)
