@@ -7,4 +7,4 @@
   - 用timesleep延迟
   
 # 成果：
-  
+  ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/%E4%BD%9C%E4%B8%9A2.1.gif)
