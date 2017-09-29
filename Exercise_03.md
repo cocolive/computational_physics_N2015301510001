@@ -14,7 +14,7 @@ It is often the case that the frictional force on an object will increase as the
  - 时间间隔dt选取得越短，则模拟计算越精确
  
  # 欧拉法分析:
-# #                      ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/3.2.gif)
+ ## #                      ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/3.2.gif)
  保留一阶项：               
  ##          #                              ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/3.3.gif)
  联立微分方程可得：   
