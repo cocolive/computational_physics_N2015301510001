@@ -31,5 +31,5 @@ It is often the case that the frictional force on an object will increase as the
     ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/DwG2EK%2BfWj6hAAAAAElFTkSuQmCC.png)
     
  # 结论：
-   降落伞模型中，如果速度低于v=![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/3.5.gif)(m/s),此时重力大于阻力，速度会增加，速度增加后，同时会伴随着阻力增大，此时合力变小，加速度减小，但方向仍竖直向下，所以图像上斜率逐渐变小，速度一直增加到改大小后，此时重力等于阻力，合力为0，加速度为0，速度保持恒定，匀速下降；同样如果速度大于v,此时重力小于阻力，速度会降低，速度减小后，同时会伴随着阻力减小，此时合力变小，加速度减小，但方向仍竖直向上，保持减速，所以图像上斜率逐渐变小，直到速度减小为v，此时重力等于阻力，速度保持恒定，匀速下降；匀速运动时的速度大小只取决于a、b。
+   降落伞模型中，如果速度低于![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/CodeCogsEqn.gif)(m/s),此时重力大于阻力，速度会增加，速度增加后，同时会伴随着阻力增大，此时合力变小，加速度减小，但方向仍竖直向下，所以图像上斜率逐渐变小，速度一直增加到改大小后，此时重力等于阻力，合力为0，加速度为0，速度保持恒定，匀速下降；同样如果速度大于v,此时重力小于阻力，速度会降低，速度减小后，同时会伴随着阻力减小，此时合力变小，加速度减小，但方向仍竖直向上，保持减速，所以图像上斜率逐渐变小，直到速度减小为v，此时重力等于阻力，速度保持恒定，匀速下降；匀速运动时的速度大小只取决于a、b。
  
