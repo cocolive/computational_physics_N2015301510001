@@ -1,0 +1,23 @@
+from pylab import *
+#给定初值，以及参数
+x=[0.]
+v=[20]
+t=[0.]
+dt=0.1
+a=10
+b=1
+for i in range(1000):  #循环语句，每隔0.1计算一次
+	t_temp=i*dt
+	t.append(t_temp)
+	v_temp=v[i]+(a-b*v[i])*dt
+	v.append(v_temp)
+	print(t[i],v[i]) #显示过程中用欧拉法计算的每个点
+
+plt.figure(figsize=(8,6))  #图片大小
+plt.plot(t,v,label="v(t)",color="blue",linewidth=1) #颜色线条的设置
+plt.xlabel("t(s)")   #设置x轴
+plt.ylabel("v(m/s)")  #设置y轴
+plt.title("a=10,b=1,v=0\n v-t") #设置图标标题
+plt.ylim(0,25) #设置y轴范围
+plt.legend()  #显示
+plt.show()  
