@@ -28,7 +28,8 @@ It is often the case that the frictional force on an object will increase as the
   - 初速度为0：
    
    ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/yOo%2B1R44r%2BbAAAAAElFTkSuQmCC.png)  
-  - 初速度为20m/s：
+ 
+ - 初速度为20m/s：
    
    ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/DwG2EK%2BfWj6hAAAAAElFTkSuQmCC.png)
     
