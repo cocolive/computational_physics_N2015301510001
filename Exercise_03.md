@@ -6,7 +6,6 @@ It is often the case that the frictional force on an object will increase as the
 
 #                                                   ![](https://github.com/cocolive/compuational_physics_N2015301510001/blob/master/%E4%BD%9C%E4%B8%9A3.1.png)
                      
-
  # 解题思路
  - 函数库：matplotlib
  - 所需对应语句： form pylab import
