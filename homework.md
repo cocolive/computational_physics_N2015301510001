@@ -5,7 +5,7 @@
 
 > [√] [第三次作业](https://github.com/cocolive/computational_physics_N2015301510001/blob/master/Exercise_03.md)
 
-> [√] [第四次作业](https://www.zybuluo.com/cocolive/note/885803)
+> [√] [第四次作业](https://github.com/cocolive/computational_physics_N2015301510001/edit/master/Exercise_04.md)
 
 > [×] [第五次作业]()
 
