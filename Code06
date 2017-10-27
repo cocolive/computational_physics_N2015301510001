@@ -1,0 +1,110 @@
+# 图1
+ 没保存
+ 
+ 
+# 图2
+from pylab import *
+import math
+x=[0.2]
+y=[0.2]
+z=[0.2]
+t=[0.]
+t2=[0.]
+t3=[0.]
+w=[0.]
+w2=[0.]
+w3=[0.]
+dt=0.04
+endt=15
+F=0
+F2=0.5
+F3=1.2
+g=9.8
+l=9.8
+q=0.5
+D=2
+for i in range(int(endt/dt)):
+	w_temp=w[i]-g/l*x[i]*dt-q*w[i]*dt
+	w2_temp=w2[i]-g/l*y[i]*dt-q*w2[i]*dt+F2*dt*math.sin(D*t2[i])
+	w3_temp=w3[i]-g/l*z[i]*dt-q*w3[i]*dt+F3*dt*math.sin(D*t3[i])
+	x_temp=x[i]+w_temp*dt
+	y_temp=y[i]+w2_temp*dt
+	z_temp=z[i]+w3_temp*dt
+	t_temp=t[i]+dt
+	t2_temp=t2[i]+dt
+	t3_temp=t3[i]+dt
+	w.append(w_temp)
+	x.append(x_temp)
+	t.append(t_temp)
+	w2.append(w2_temp)
+	y.append(y_temp)
+	t2.append(t2_temp)
+	w3.append(w3_temp)
+	z.append(z_temp)
+	t3.append(t3_temp)
+
+plot(t,x,label='F=0')
+plot(t,y,label='F=0.5')
+plot(t,z,label='F=1.2')
+legend(loc="best")
+show()
+
+图3
+from pylab import *
+import math
+import matplotlib.pyplot as plt
+import numpy as np
+x=[0.2]
+y=[0.2]
+z=[0.2]
+t=[0.]
+t2=[0.]
+t3=[0.]
+w=[0.]
+w2=[0.]
+w3=[0.]
+E=[0.002926]
+E2=[0.002926]
+E3=[0.002926]
+m=5
+dt=0.04
+endt=15
+F=0
+F2=0.5
+F3=1.2
+g=9.8
+l=9.8
+q=0.5
+D=2
+for i in range(int(endt/dt)):
+	w_temp=w[i]-g/l*x[i]*dt-q*w[i]*dt
+	w2_temp=w2[i]-g/l*y[i]*dt-q*w2[i]*dt+F2*dt*math.sin(D*t2[i])
+	w3_temp=w3[i]-g/l*z[i]*dt-q*w3[i]*dt+F3*dt*math.sin(D*t3[i])
+	x_temp=x[i]+w_temp*dt
+	y_temp=y[i]+w2_temp*dt
+	z_temp=z[i]+w3_temp*dt
+	E_temp=0.5*m*l*l*w_temp*w_temp+m*g*l*(1-math.cos(x_temp))
+	E2_temp=0.5*m*l*l*w2_temp*w2_temp+m*g*l*(1-math.cos(y_temp))
+	E3_temp=0.5*m*l*l*w3_temp*w3_temp+m*g*l*(1-math.cos(z_temp))
+	t_temp=t[i]+dt
+	t2_temp=t2[i]+dt
+	t3_temp=t3[i]+dt
+	w.append(w_temp)
+	x.append(x_temp)
+	t.append(t_temp)
+	E.append(E_temp)
+	w2.append(w2_temp)
+	y.append(y_temp)
+	t2.append(t2_temp)
+	E2.append(E2_temp)
+	w3.append(w3_temp)
+	z.append(z_temp)
+	t3.append(t3_temp)
+	E3.append(E3_temp)
+
+
+plot(t,E,label='F=0')
+plot(t,E2,label='F=0.5')
+plot(t,E3,label='F=1.2')
+legend(loc="best")
+show()
