@@ -9,7 +9,7 @@
 
 > [√] [第五次作业](https://www.zybuluo.com/cocolive/note/919779)
 
-> [×] [第六次作业]()
+> [√] [第六次作业](https://www.zybuluo.com/cocolive/note/930634)
 
 > [×] [第七次作业]()
 
