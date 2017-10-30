@@ -11,7 +11,7 @@
 
 > [√] [第六次作业](https://www.zybuluo.com/cocolive/note/930634)
 
-> [×] [第七次作业]()
+> [√] [第七次作业](https://www.zybuluo.com/cocolive/note/933751)
 
 > [×] [第八次作业]()
 
