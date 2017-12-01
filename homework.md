@@ -15,9 +15,9 @@
 
 > [√] [第八次作业](https://www.zybuluo.com/cocolive/note/944659)
 
->[√] [期中](https://github.com/cocolive/computational_physics_N2015301510001/blob/master/%E6%9C%9F%E4%B8%AD.sb)
+> [√] [期中](https://github.com/cocolive/computational_physics_N2015301510001/blob/master/%E6%9C%9F%E4%B8%AD.sb)
 
-> [×] [第九次作业]()
+> [√] [第九次作业](https://www.zybuluo.com/cocolive/note/969847)
 
 > [×] [第十次作业]()
 
