@@ -83,3 +83,50 @@ plt.xlabel('x')
 plt.ylabel('ψ')
 legend(loc="best")
 show()
+
+#三#
+from pylab import *
+import math
+import matplotlib.pyplot as plt
+import numpy as np
+y=[1.]
+y1=[1.]
+z=[1.]
+x=[0.]
+x1=[0.]
+v=[0.]
+E=9.46
+dx=0.01
+
+for i in range(0,101):
+	y_temp=2*y[i]-z[i]-2*E*y[i]*dx**2
+	y1_temp=y_temp
+	z_temp=y[i]
+	x_temp=x[i]+dx
+	x1_temp=x1[i]-dx
+
+	y.append(y_temp)
+	y1.append(y1_temp)
+	x.append(x_temp)
+	x1.append(x1_temp)
+	z.append(z_temp)
+for i in range(101,120):
+	y_temp=2*y[i]-z[i]-2*(E-100)*y[i]*dx**2
+	y1_temp=y_temp
+	z_temp=y[i]
+	x_temp=x[i]+dx
+	x1_temp=x1[i]-dx
+	y.append(y_temp)
+	y1.append(y1_temp)
+	x.append(x_temp)
+	x1.append(x1_temp)
+	z.append(z_temp)
+
+plot(x,y,'b')
+plot(x1,y1,'b')
+plt.title('E=9.46,V=100')
+plt.xlabel('x')
+plt.ylabel('ψ')
+legend(loc="best")
+show()
+
