@@ -1,4 +1,4 @@
-#图一#
+#一#
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib as mpl
@@ -48,3 +48,38 @@ plt.xlim(0,1)
 plt.xlabel('x')
 plt.ylabel('\psi')
 plt.show()
+#二#
+from pylab import *
+import math
+import matplotlib.pyplot as plt
+import numpy as np
+y=[1.]
+z=[1.]
+x=[0.]
+v=[0.]
+E=0.9
+dx=0.01
+
+for i in range(0,101):
+	y_temp=2*y[i]-z[i]-2*E*y[i]*dx**2
+	z_temp=y[i]
+	x_temp=x[i]+dx
+
+	y.append(y_temp)
+	x.append(x_temp)
+	z.append(z_temp)
+
+for i in range(101,120):
+	y_temp=2*y[i]-z[i]-2*(E-100)*y[i]*dx**2
+	z_temp=y[i]
+	x_temp=x[i]+dx
+
+	y.append(y_temp)
+	x.append(x_temp)
+	z.append(z_temp)
+
+plot(x,y,label='E=0.9')
+plt.xlabel('x')
+plt.ylabel('ψ')
+legend(loc="best")
+show()
