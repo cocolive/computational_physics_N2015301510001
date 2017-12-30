@@ -1,0 +1,50 @@
+#图一#
+import matplotlib.pyplot as plt
+import numpy as np
+import matplotlib as mpl
+from mpl_toolkits.mplot3d import Axes3D
+
+
+dx=0.01
+x0=0.
+y0=1.
+z0=1
+
+class Lorenz:
+	def __init__(self,r):
+		self.x=[x0]
+		self.y=[y0]
+		self.z=[z0]
+		self.r=r
+
+	def update(self):
+		current_x=self.x[-1]
+		current_y=self.y[-1]
+		current_z=self.z[-1]
+		a_y=2*self.r*dx**2
+		self.next_y=2*current_y-current_z-a_y*current_y
+		self.next_z=current_y
+		self.next_x=self.x[-1]+dx
+
+	def fire(self):
+		while (self.x[-1]<=60):
+			self.update()
+			self.x.append(self.next_x)
+			self.y.append(self.next_y)
+			self.z.append(self.next_z)
+			
+		plt.plot(self.x,self.y,label='E='+str(self.r))
+
+A=Lorenz(0.3)
+A.fire()
+A=Lorenz(0.9)
+A.fire()
+A=Lorenz(1.0)
+A.fire()
+A=Lorenz(2.0)
+A.fire()
+plt.legend(loc='best')
+plt.xlim(0,1)
+plt.xlabel('x')
+plt.ylabel('\psi')
+plt.show()
