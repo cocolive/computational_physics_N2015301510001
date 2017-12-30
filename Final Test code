@@ -8,7 +8,7 @@ from mpl_toolkits.mplot3d import Axes3D
 dx=0.01
 x0=0.
 y0=1.
-z0=1
+z0=1.
 
 class Lorenz:
 	def __init__(self,r):
